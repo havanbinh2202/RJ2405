@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    text-align: center; 
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom:
+}
+
+.contact-info li span.label1{
+    float: right;
+}
+.contact-info li span.label1{
+    float: left;
+}
