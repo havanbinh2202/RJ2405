@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3, h4 {
+    margin: 1rem 0;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+    margin: 1.5rem 0;
+  }
+/*   
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  } */
+  
+  /* You can add styles for specific sections here */
+  /* #contact-info,
+  #work-experience,
+  #header {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  } */
+#contact-info{
+    display: flex;
+    justify-content: left;
+}
+  #header{
+    text-align: left;
+  }
+#header img{
+    width: 300px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    position: absolute;
+    top: 0; /* Start the image at the top */
+    right: 0; /* Start the image at the right edge */
+  }
+
+  #chungchi{
+    float: right;
+    position: relative;
+  }
+  
+  #chungchi::before {
+    content: ''; /* Create an overlay element */
+    position: absolute; /* Position the overlay absolutely */
+    top: 0; /* Cover the entire section from the top */
+    left: 0; /* Cover the entire section from the left */
+    width: 100%; /* Span the full width */
+    height: 100%; /* Span the full height */
+    background-color: rgba(216, 204, 204, 0.5); /* Semi-transparent black background */
+    z-index: -1; /* Place the overlay behind the content */
+  }
+  #chamngon {
+    text-align: center; /* Center the text within the container */
+    float: right; /* Float the container to the right */
+    position: relative; /* Enable positioning for overlay */
+    width: 40%; /* Adjust width as needed */
+    padding: 20px; /* Add padding around the text */
+    margin-top: 20px; /* Add margin above the section */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle drop shadow */
+  }
+  
+  #chamngon::before {
+    content: ''; /* Create an overlay element */
+    position: absolute; /* Position the overlay absolutely */
+    top: 0; /* Cover the entire section from the top */
+    left: 0; /* Cover the entire section from the left */
+    width: 100%; /* Span the full width */
+    height: 100%; /* Span the full height */
+    background-color:rgba(216, 204, 204, 0.5); /* Semi-transparent white background */
+    z-index: -1; /* Place the overlay behind the content */
+  }

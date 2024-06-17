@@ -1,0 +1,68 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 1em 0;
+  }
+  h2{
+    text-align: center;
+    background-color: #d7d7d7;
+  }
+  
+  p, ul {
+    margin: 0.5em 0;
+  }
+  
+  ul {
+    padding: 10px;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Section styles */
+  #contact-info,
+  #career-objective,
+  #skill-highlights,
+  #education,
+  #technical-skills,
+  #certifications,
+  #projects,
+  #achievements {
+    /* border-bottom: 1px solid #ddd; */
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+  
+  #contact-info {
+    text-align: center;
+    margin-right: -500px;
+  }
+  
+  #career-objective,
+  #skill-highlights {
+    padding-left: 1.5em;
+  }
+  
+  #education,
+  #technical-skills,
+  #certifications,
+  #projects,
+  #achievements {
+    padding-left: 2em;
+  }
+
+
+#contact-info img{
+    float: left;
+    width: 150px;
+    margin-left: 100px;
+    border-radius: 60%;
+}
+
+
