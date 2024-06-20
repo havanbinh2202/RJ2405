@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fafafa;
+    font-size: sans-serif;
+    font-size: 15px;
+    color: #565656;
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    list-style: none;
+}
+/* .l-sidebar{
+    float: left;
+    width: 25%;
+}
+.main-conten{
+    float: left;
+    width: 75%;
+} */
+ .header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .header .logo{
+    float: left;
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+ .header .reviews{
+    float: right;
+    font-size: 18px;
+ }
+
+ .nav ul{
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #535353;
+    border-bottom: 1px solid#535353;
+ }
+ .nav ul li{
+    float: left;
+    margin-right: 25px;
+    text-transform: capitalize;
+ }
+ .nav ul .last{
+    float: right;
+    margin-right: 0;
+ }
+
+ .description .ingredients{
+    float:left
+ }
+ .description .directions{
+    float: right;
+ }
+ .description .num{
+    padding: 5;
+    margin: 5px;
+    line-height: 1.5;
+    background-color: #d2c6c6;
+ }
