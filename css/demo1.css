@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    font-size: sans-serif;
+    font-size: 15px;
+    color: #565656;
+    text-align: left;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-image: url(../img/backgroundbreakfast.jpg);
+    background-size: cover;
+}
+
+.header .bg-header{
+    background-color: #00000080;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.header h1,h2{
+    /* color: black; */
+    background-color: #fafafa;
+    border: #fafafa;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+}
+.header .container{
+    width: 800px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.nav h1{
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 150px;
+    font-weight: bold;
+}
+.nav p{
+    float: right;
+    font-size: 16px;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto; /* Căn giữa phần div cha theo chiều ngang */
+    padding: 20px; /* Khoảng trống bên trong phần div cha */
+}
+.nav .container .navmenu{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto; /* Căn giữa phần div cha theo chiều ngang */
+    padding: 20px; /* Khoảng trống bên trong phần div cha */
+}
+.nav .container .navmenu h1{
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 150px;
+}
+.breakfast .container { 
+    margin-top: 30px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.breakfast .container img{
+    width: 300px; /* Chiều rộng của ảnh */
+    height: 200px; /* Chiều cao của ảnh */
+    margin: 10px; /* Khoảng cách giữa các ảnh */
+    border: 1px solid #ccc; /* Đường viền cho ảnh */
+}
+.breakfast .container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    display: contents;
+    text-transform: uppercase;
+}
+
+.breakfast p {
+    text-align: justify; /* Căn đều hai đầu văn bản */
+    margin-top: 0; /* Loại bỏ khoảng cách mặc định trên văn bản */
+    text-align: right;
+    display: contents;
+}
+
+.item{
+    margin-top: 30px;
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+.item h1,h3{
+    text-transform: uppercase;
+
+}
+.menu .container .menu1{
+    width: 300px;
+    height: 150px;
+    margin-top: 10%;
+    margin-left: 300px;
+    margin-right: -10px;
+    z-index: 2;
+    position: relative;
+}
+.menu .container .menu2{
+    width: 300px;
+    height: 500px;
+    background-color: #cfd991;
+}
+.menu .container{
+    display: flex;
+}
+.menu .container h1{
+    margin-right: -40px;
+    text-align: right;
+    margin-top: 150px;
+    text-transform: uppercase;
+}
+
+.menu .container p{
+    margin-right: -40px;
+    text-align: right;
+}
+
+.snack1{
+    margin-top: 30px;
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.snack1 img{
+    border: 1px solid #ead6d6;
+}
+.snack1 h3,p{
+    margin-top: 30px;
+}
+.enjoy{
+    background-image: url(../img/cafe.jpg);
+    background-size: cover;
+}
+.enjoy .container{
+    width: 300px;
+}
+.enjoy h1{
+    text-transform: uppercase;
+    margin-top: 500px;
+    text-align: center;
+}
+.footer .container{
+    width: 300px;
+}
+.footer{
+    background-color: #565656;
+}
+.footer p{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
