@@ -1,0 +1,82 @@
+body {
+    background-color: #F0EDE3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #004d00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #004d00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step {
+    background-color: white;
+    border: 2px solid #004d00;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.step-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.step-badge {
+    background-color: #004d00;
+    color: #E7FF2F;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.step-duration {
+    background-color: #E7FF2F;
+    color: #004d00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #004d00;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: #555;
+}
